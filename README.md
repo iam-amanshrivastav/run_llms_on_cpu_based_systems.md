@@ -292,7 +292,7 @@ curl http://localhost:8080/completion \
 
 ---
 
-## 🧪 Real Use Cases
+##  Real Use Cases
 
 *  Local chatbot
 *  AI agents (LangChain / CrewAI)
@@ -309,6 +309,16 @@ curl http://localhost:8080/completion \
 * Limited context vs cloud LLMs
 
 ---
+##  Windows Troubleshooting (Real Issues Faced)
+
+###  Issue 1: Python not recognized
+Fix: Added Python to PATH
+
+###  Issue 2: pip not working in PowerShell
+Fix: Restart terminal after environment setup
+
+###  Issue 3: hf command not found
+Fix: Ensure Scripts folder is in PATH
 
 ##  Key Learnings
 
